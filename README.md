@@ -2,7 +2,7 @@
 
 gemini
 
-**Version:** `1.0.3`  
+**Version:** `1.0.4`  
 **Managed by:** [smcp](https://github.com/TanPhat23/smcp)  
 
 ## Quick Install
