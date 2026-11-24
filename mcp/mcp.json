@@ -1,0 +1,54 @@
+{
+  "mcpServers": {
+    "grep": {
+      "url": "https://mcp.grep.app"
+    },
+    "webmcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mcp-b/webmcp-local-relay@latest"
+      ],
+      "env": {}
+    },
+    "sequential-thinking": {
+      "command": "bunx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "env": {}
+    },
+    "vibe-check-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@pv-bhat/vibe-check-mcp",
+        "start",
+        "--stdio"
+      ],
+      "env": {}
+    },
+    "project-search": {
+      "command": "/home/ghug/.nvm/versions/node/v26.5.0/bin/node",
+      "args": [
+        "/home/ghug/.local/share/claude-project-search/index.js"
+      ],
+      "env": {}
+    },
+    "repowise": {
+      "command": "/home/ghug/.local/share/uv/tools/repowise/bin/repowise",
+      "args": [
+        "mcp",
+        "--transport",
+        "stdio"
+      ]
+    },
+    "webbuilder": {
+      "url": "https://webbuildermcp-production.up.railway.app/mcp",
+      "headers": {
+        "Authorization": "Bearer ${WEBBUILDER_AUTHORIZATION}"
+      }
+    }
+  }
+}
