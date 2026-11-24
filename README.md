@@ -1,8 +1,8 @@
 # gemini
 
-gemini
+gemibi
 
-**Version:** `1.0.0`  
+**Version:** `1.0.1`  
 **Managed by:** [smcp](https://github.com/TanPhat23/smcp)  
 
 ## Quick Install
